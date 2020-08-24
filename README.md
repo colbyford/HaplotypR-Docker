@@ -1,7 +1,7 @@
 # Docker Image for HaplotypR
 <h4 align = "right">Colby T. Ford, Ph.D.</h4>
 This repository contains the Dockerfile for generating an Ubuntu image with HaplotypR pre-installed.
-```
+
 
 -------------------------------
 
