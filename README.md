@@ -41,4 +41,4 @@ docker push <USERNAME>/haplotypr
 ----------------------
 ## About HaplotypR
 
-HaplotypR, developed by the Anita Lerch, Ph.D. at the University of Notre Dame, is a program for analysis of Amplicon-Seq genotyping experiments. Check out her website for more details: [https://lerch-a.github.io/HaplotypR/)
+HaplotypR, developed by Anita Lerch, Ph.D. at the University of Notre Dame, is a program for analysis of Amplicon-Seq genotyping experiments. Check out her website for more details: [https://lerch-a.github.io/HaplotypR/)
