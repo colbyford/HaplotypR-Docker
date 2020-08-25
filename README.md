@@ -2,6 +2,28 @@
 <h4 align = "right">Colby T. Ford, Ph.D.</h4>
 This repository contains the Dockerfile for generating an Ubuntu image with HaplotypR pre-installed.
 
+## DockerHub
+This container image is available from DockerHub: [hub.docker.com/r/cford38/seekdeep](https://hub.docker.com/r/cford38/haplotypr)
+
+#### Pull Image to Local Machine
+```
+docker pull cford38/haplotypr:latest
+```
+#### To Run Locally
+```
+docker run --name haplotypr -d cford38/haplotypr
+docker exec -it seehaplotyprkdeep /bin/bash
+```
+
+#### Copy File to Container
+```
+docker cp myfile.txt haplotypr:./myfile.txt
+```
+
+### Copy Files from Container
+```
+docker cp haplotypr:./root/haplotypr/ ./
+```
 
 -------------------------------
 
