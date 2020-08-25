@@ -3,7 +3,7 @@
 This repository contains the Dockerfile for generating an Ubuntu image with HaplotypR pre-installed.
 
 ## DockerHub
-This container image is available from DockerHub: [hub.docker.com/r/cford38/seekdeep](https://hub.docker.com/r/cford38/haplotypr)
+This container image is available from DockerHub: [hub.docker.com/r/cford38/haplotypr](https://hub.docker.com/r/cford38/haplotypr)
 
 #### Pull Image to Local Machine
 ```
