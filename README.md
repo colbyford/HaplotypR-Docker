@@ -45,7 +45,7 @@ _Note:_ You may have to increase the resource limits in Docker's settings as thi
 docker run --name haploytypr --rm -p 8787:8787 haplotypr
 ```
 
-Then, navigate to localhost:8787 from your web browser.
+Then, navigate to `localhost:8787` from your web browser.
 
 ----------------------
 
