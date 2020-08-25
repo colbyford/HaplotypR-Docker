@@ -20,14 +20,10 @@ _Note:_ You may have to increase the resource limits in Docker's settings as thi
 
 4. Once the image has been created successfully, run the container using the following command.
 ```
-docker run haplotypr
+docker run --name haploytypr --rm -p 8787:8787 haplotypr
 ```
 
-5. Once the container is ready, remote into the bash terminal.
-```
-docker run --name haplotypr -d haplotypr -p 8787:8787 -e PASSWORD=admin
-docker exec -it haplotypr /bin/bash
-```
+Then, navigate to localhost:8787 from your web browser.
 
 ----------------------
 
