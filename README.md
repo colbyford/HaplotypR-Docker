@@ -12,7 +12,7 @@ docker pull cford38/haplotypr:latest
 #### To Run Locally
 ```
 docker run --name haplotypr -d cford38/haplotypr
-docker exec -it seehaplotyprkdeep /bin/bash
+docker exec -it haplotypr /bin/bash
 ```
 
 #### Copy File to Container
