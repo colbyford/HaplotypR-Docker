@@ -11,8 +11,8 @@ docker pull cford38/haplotypr:latest
 ```
 #### To Run Locally
 ```
-docker run --name haplotypr -d cford38/haplotypr
-docker exec -it haplotypr /bin/bash
+docker run --name haploytypr --rm -p 8787:8787 cford38/haplotypr
+#docker exec -it haplotypr /bin/bash
 ```
 
 #### Copy File to Container
