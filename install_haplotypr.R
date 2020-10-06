@@ -7,11 +7,15 @@ BiocManager::install("Biostrings")
 
 install.packages("dplyr")
 install.packages("remotes")
+install.packages("ape")
+install.packages("phangorn")
+
 remotes::install_github("Bioconductor/Biobase")
 remotes::install_github("Bioconductor/ShortRead")
 
 BiocManager::install("SummarizedExperiment")
 BiocManager::install("ShortRead")
+BiocManager::install("msa")
 
 ###################################
 
