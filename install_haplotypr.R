@@ -1,3 +1,5 @@
+## Install Required Dependencies for HaplotypR and Phylogenetic Analyses
+
 install.packages("latticeExtra")
 
 if (!requireNamespace("BiocManager", quietly = TRUE))
@@ -18,7 +20,7 @@ BiocManager::install("ShortRead")
 BiocManager::install("msa")
 
 ###################################
-
+## Install HaplotypR
 library(devtools)
 library(git2r)
 
