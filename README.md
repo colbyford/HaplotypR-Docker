@@ -1,4 +1,6 @@
 # Docker Image for HaplotypR
+[![](https://images.microbadger.com/badges/image/cford38/haplotypr.svg)](https://microbadger.com/images/cford38/haplotypr "Get your own image badge on microbadger.com")
+
 <h4 align = "right">Colby T. Ford, Ph.D.</h4>
 This repository contains the Dockerfile for generating an Ubuntu image with HaplotypR pre-installed.
 
