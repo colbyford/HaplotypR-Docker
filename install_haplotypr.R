@@ -8,6 +8,7 @@ if (!requireNamespace("BiocManager", quietly = TRUE))
 BiocManager::install("Biostrings")
 
 install.packages("dplyr")
+install.packages("git2r")
 install.packages("remotes")
 install.packages("ape")
 install.packages("phangorn")
@@ -43,4 +44,4 @@ repo <- clone("https://github.com/lerch-a/NGmergeR.git", path)
 clone("https://github.com/harvardinformatics/NGmerge.git", file.path(path, "src", "NGmerge"))
 install(path)
 
-devtools::install_github("lerch-a/HaplotypR")
+remotes::install_github("lerch-a/HaplotypR")
