@@ -51,7 +51,7 @@ Then, navigate to `localhost:8787` from your web browser.
 
 ----------------------
 
-## To Publish on DockerHub
+## Push to DockerHub
 
 ```
 docker image tag haplotypr <USERNAME>/haplotypr:latest
