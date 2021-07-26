@@ -3,7 +3,7 @@
 
 
 <h4 align = "right">Colby T. Ford, Ph.D.</h4>
-This repository contains the Dockerfile for generating an Ubuntu image with HaplotypR pre-installed.
+This repository contains the Dockerfile for generating an Ubuntu image with the HaplotypR package pre-installed.
 
 ## DockerHub
 This container image is available from DockerHub: [hub.docker.com/r/cford38/haplotypr](https://hub.docker.com/r/cford38/haplotypr)
